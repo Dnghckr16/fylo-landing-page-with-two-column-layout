@@ -60,7 +60,7 @@ img{
     max-width:100%;
 }
 .main-content-image img{
-    width: 1400px;
+    width: 1200px;
 } 
 .nav-logo{
     width:150px;
@@ -81,7 +81,7 @@ nav{
     padding:6rem 0;
 }
 .header-content{
-    padding-right: 10rem;
+    padding-right: 8rem;
 }
 input{
     padding:1.5rem 1rem;
@@ -92,7 +92,8 @@ form{
 }
 .email-1{
     margin-right:2rem;
-    width:50%;   
+    width:50%;
+    border:1px solid black;   
 }
 .email-1::placeholder,
 .email-2::placeholder{
@@ -207,6 +208,7 @@ p.content-links:hover{
 .email-2{
     width:95%;
     margin: 2rem 0;
+    border:1px solid black; 
 }
 .footer-container{
     background-color: var(--Very-Dark-Blue);
